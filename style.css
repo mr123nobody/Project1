@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'roboto'
+}
+
+html{
+    height : 100%;
+    width: 100%;
+    background-color: white;     
+}
+
+body{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;  
+    
+}
+
+header{
+    display: flex;    
+    justify-content: space-between;            
+}
+
+.left-side{
+    display: flex;
+    height: 37px;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+.menu, .bars{
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 8px 12px;
+    transition: background-color 0.15s,
+    color 0.15s,
+    border 0.15s;
+}
+
+.menu:hover{
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+
+}
+
+.bars{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content: center;
+    gap:2px;  
+    transition: background-color 0.15s,
+    color 0.15s,
+    border 0.15s;        
+}
+
+.bar1{
+    background-color: black;
+    width: 10px;
+    height: 2px;   
+
+}
+
+.bar2{
+    background-color: black;
+    width: 13px;
+    height: 2px;
+    
+}
+
+
+
+
+.center-top{    
+    display: flex;
+    align-items: center;   
+
+}
+
+.heading{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 3px;    
+   
+}
+
+.dental-logo{
+    margin-top: 3px;
+    height: 25px;
+    width: 25px;
+   
+}
+
+.log-in{
+    background-color: white;
+    color: black;
+    font-size: 16px;    
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 8px 12px;
+    transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.log-in:hover{
+    background-color: black;
+    color: white;     
+   
+}
+
+.sign-up{
+    background-color: orangered;
+    color:white;
+    font-size: 16px;
+    border:none;
+    border-radius: 50px;
+    padding: 10px 14px;
+    transition: background-color 0.15s,
+    color 0.15s;  
+    
+}
+
+.sign-up:hover{
+    background-color: white;
+    color: orangered;    
+}
+
+
+.main{
+    color:black;
+    font-size: 140px;    
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+    text-align: center;
+}    
+
+.img1, .img2,.img3, .img4{
+    height:350px;
+    width:300px;
+    object-fit: cover;
+    position:absolute;
+    top:50%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+.img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+.img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+.img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+footer{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  position: absolute;  
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+
+
+}
+
+.icons{
+    margin-left: 20px;
+    margin-right: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons img{
+    height: 17px;
+    width: 17px;
+}
+
+
+
+
